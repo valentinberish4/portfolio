@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+/* Colors
+Hover: #8f857b
+Passive: #afa193
+ */
 .background{
     width: 100%;
     height: 100vh;
@@ -22,6 +26,20 @@
     margin: 0 20px;
     position: relative;
 }
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #8f857b;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
 .background h1{
     color: #afa193;
     text-transform: uppercase;
@@ -32,4 +50,8 @@
     font-size: 20px;
     color: #afa193;
     text-transform: uppercase;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color: #8f857b;
 }
