@@ -10,15 +10,16 @@ Passive: #afa193
 .background{
     width: 100%;
     height: 100vh;
-    background: #faf7f0;
+    background: #f8f9fa;
 }
 .navbar{
     display: flex;
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     align-items: center;
     justify-content: space-between;
+    background-color: #495057;
 }
 .navbar ul li{
     list-style: none;
@@ -30,7 +31,7 @@ Passive: #afa193
     content: '';
     height: 3px;
     width: 0;
-    background: #8f857b;
+    background: #6c757d;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -41,17 +42,17 @@ Passive: #afa193
     width: 100%;
 }
 .background h1{
-    color: #afa193;
+    color: #fff;
     text-transform: uppercase;
 }
 .navbar ul li a{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
-    color: #afa193;
+    color: #fff;
     text-transform: uppercase;
     transition: 0.5s;
 }
 .navbar ul li a:hover{
-    color: #8f857b;
+    color: #6c757d;
 }
