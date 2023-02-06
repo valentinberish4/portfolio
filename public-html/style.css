@@ -10,16 +10,15 @@ Passive: #afa193
 .background{
     width: 100%;
     height: 100vh;
-    background: #f8f9fa;
+    background: #0E0E0E;
 }
 .navbar{
     display: flex;
-    width: 100%;
+    width: 80%;
     margin: auto;
     padding: 35px 0;
     align-items: center;
     justify-content: space-between;
-    background-color: #495057;
 }
 .navbar ul li{
     list-style: none;
