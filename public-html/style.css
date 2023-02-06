@@ -1,4 +1,47 @@
-body {
-  background-color: white;
-  font-family: "Libre Baskerville", sans-serif;
-}/*# sourceMappingURL=style.css.map */
+:root{
+  --background: #edede9;
+  --header: #242631;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+/* header  */
+li, a{
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: var(--header);
+
+}
+.logo{
+  width: 70px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.name{
+  font-weight: 400;
+}
+.navlinks{
+  list-style: none;
+}
+.navlinks li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+  color: white;
+}
